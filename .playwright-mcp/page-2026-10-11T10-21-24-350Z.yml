@@ -1,0 +1,35 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading [level=1] [ref=e28]: Inicia Sesión
+        - paragraph [ref=e6]: O Crea una nueva cuenta
+      - generic [ref=e7]:
+        - link [ref=e29] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e10]:
+            - generic [ref=e11]: Laboratorio
+            - generic [ref=e12]: De Testing
+          - img [ref=e14]
+        - generic [ref=e16]:
+          - generic [ref=e17]: Email
+          - textbox [ref=e30]:
+            - /placeholder: Ingresa tu email
+            - text: usuario.inexistente@example.com
+        - generic [ref=e19]:
+          - generic [ref=e20]: Contraseña
+          - textbox [ref=e31]:
+            - /placeholder: Ingresa tu contraseña
+            - text: ClaveIncorrecta123!
+          - img [ref=e22] [cursor=pointer]
+        - button [ref=e32] [cursor=pointer]: Iniciar Sesión
+        - link [ref=e33] [cursor=pointer]:
+          - /url: /auth/signup
+          - text: ¿No tienes una cuenta? Crea una
+      - button [ref=e34] [cursor=pointer]: ¿Olvidaste tu contraseña?
+  - alert [ref=e27]
+  - dialog "Error" [ref=e36]:
+    - heading "Error" [level=2] [ref=e41]
+    - generic [ref=e42]: No pudimos iniciar sesión con estas credenciales. Intenta de nuevo.
+    - text: "!"
+    - button "Volver" [active] [ref=e44] [cursor=pointer]

@@ -1,0 +1,2 @@
+[     494ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.laboratoriodetesting.com/auth/login:0
+[  203901ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.laboratoriodetesting.com/api/v1/auth/login:0

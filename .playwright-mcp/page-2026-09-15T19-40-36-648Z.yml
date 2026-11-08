@@ -1,0 +1,27 @@
+- generic [active] [ref=f7e1]:
+  - main [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - generic [ref=f7e4]:
+        - heading "Inicia Sesión" [level=1] [ref=f7e5]
+        - paragraph [ref=f7e6]: O Crea una nueva cuenta
+      - generic [ref=f7e7]:
+        - link "Laboratorio De Testing" [ref=f7e9] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f7e10]:
+            - generic [ref=f7e11]: Laboratorio
+            - generic [ref=f7e12]: De Testing
+        - generic [ref=f7e16]:
+          - generic [ref=f7e17]: Email
+          - textbox "Ingresa tu email" [ref=f7e18]
+          - paragraph
+        - generic [ref=f7e19]:
+          - generic [ref=f7e20]: Contraseña
+          - textbox "Ingresa tu contraseña" [ref=f7e21]
+          - paragraph
+          - button:
+            - img [ref=f7e22] [cursor=pointer]
+        - button "Iniciar Sesión" [disabled] [ref=f7e24]
+        - link "¿No tienes una cuenta? Crea una" [ref=f7e25] [cursor=pointer]:
+          - /url: /auth/signup
+      - button "¿Olvidaste tu contraseña?" [ref=f7e26] [cursor=pointer]
+  - alert [ref=f7e27]

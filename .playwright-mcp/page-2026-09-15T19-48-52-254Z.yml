@@ -1,0 +1,34 @@
+- generic [ref=f8e1]:
+  - main [aria-hidden] [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - heading [level=1] [ref=f8e28]: Inicia Sesión
+        - paragraph [ref=f8e6]: O Crea una nueva cuenta
+      - generic [ref=f8e7]:
+        - link [ref=f8e29] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f8e10]:
+            - generic [ref=f8e11]: Laboratorio
+            - generic [ref=f8e12]: De Testing
+        - generic [ref=f8e16]:
+          - generic [ref=f8e17]: Email
+          - textbox [ref=f8e30]:
+            - /placeholder: Ingresa tu email
+            - text: usuario_no_registrado@laboratoriodetesting.com
+        - generic [ref=f8e19]:
+          - generic [ref=f8e20]: Contraseña
+          - textbox [ref=f8e31]:
+            - /placeholder: Ingresa tu contraseña
+            - text: ClaveInvalida123!
+          - img [ref=f8e22] [cursor=pointer]
+        - button [ref=f8e32] [cursor=pointer]: Iniciar Sesión
+        - link [ref=f8e33] [cursor=pointer]:
+          - /url: /auth/signup
+          - text: ¿No tienes una cuenta? Crea una
+      - button [ref=f8e34] [cursor=pointer]: ¿Olvidaste tu contraseña?
+  - alert [ref=f8e27]
+  - dialog [ref=f8e36]:
+    - heading "Error" [level=2] [ref=f8e41]
+    - generic [ref=f8e42]: No pudimos iniciar sesión con estas credenciales. Intenta de nuevo.
+    - text: "!"
+    - button "Volver" [active] [ref=f8e44] [cursor=pointer]

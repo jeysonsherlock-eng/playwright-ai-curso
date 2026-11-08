@@ -1,0 +1,27 @@
+- generic [ref=f8e1]:
+  - main [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - heading "Inicia Sesión" [level=1] [ref=f8e45]
+        - paragraph [ref=f8e6]: O Crea una nueva cuenta
+      - generic [ref=f8e7]:
+        - link "Laboratorio De Testing" [ref=f8e46] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f8e10]:
+            - generic [ref=f8e11]: Laboratorio
+            - generic [ref=f8e12]: De Testing
+        - generic [ref=f8e16]:
+          - generic [ref=f8e17]: Email
+          - textbox "Ingresa tu email" [ref=f8e47]: usuario_no_registrado@laboratoriodetesting.com
+          - paragraph
+        - generic [ref=f8e19]:
+          - generic [ref=f8e20]: Contraseña
+          - textbox "Ingresa tu contraseña" [ref=f8e48]: ClaveInvalida123!
+          - paragraph
+          - button:
+            - img [ref=f8e22] [cursor=pointer]
+        - button "Iniciar Sesión" [active] [ref=f8e49] [cursor=pointer]
+        - link "¿No tienes una cuenta? Crea una" [ref=f8e50] [cursor=pointer]:
+          - /url: /auth/signup
+      - button "¿Olvidaste tu contraseña?" [ref=f8e51] [cursor=pointer]
+  - alert [ref=f8e27]
