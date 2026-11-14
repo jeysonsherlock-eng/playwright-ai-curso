@@ -3,6 +3,9 @@
 node_modules/
 /test-results/
 /playwright-report/
-/blob-report/
 /playwright/.cache/
 /playwright/.auth/
+.playwright-cli/
+.playwright-mcp/
+.vscode/
+.env
